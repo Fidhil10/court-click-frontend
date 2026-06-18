@@ -1,0 +1,49 @@
+
+:root {
+  --primary: #4a2040;
+  --primary-hover: #3a1830;
+  --primary-light: #f5f0f4;
+  --accent: #6b3a5e;
+  --sidebar-bg: #1a0f17;
+  --sidebar-icon: #9a7a94;
+  --sidebar-icon-active: #ffffff;
+  --bg-main: #f0f0f0;
+  --bg-card: #ffffff;
+  --border: #e8e8e8;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b6b6b;
+  --text-muted: #9a9a9a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg-main);
+  color: var(--text-primary);
+}
+
+.ant-btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.ant-btn-primary:hover {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+}
+.ant-tabs-ink-bar { background: var(--primary) !important; }
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn { color: var(--primary) !important; }
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.ant-pagination-item-active { border-color: var(--primary) !important; }
+.ant-pagination-item-active a { color: var(--primary) !important; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 3px; }
